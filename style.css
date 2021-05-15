@@ -1,0 +1,81 @@
+body {
+    font-size: 30px;
+    color: rgb(255, 102, 0);
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    background: linear-gradient(black, rgba(124, 124, 124, 0.493), rgba(124, 124, 124, 0.493), black);
+}
+
+#inp {
+    outline: none;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 20px 40px 20px 40px;
+    width: 60%;
+}
+
+#info {
+    outline: none;
+    color: black;
+    font-weight: bold;
+    background-color: aliceblue;
+    margin-left: 3px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 20px 40px 20px 40px;
+    width: 5%;
+}
+
+#reload {
+    outline: none;
+    border-radius: 10px;
+    padding: 18px 20px 26px 20px;
+}
+
+#read {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 88%;
+    margin: auto;
+    background-color: rgb(49, 49, 49);
+    border-radius: 10px;
+    border: white 2px solid;
+    padding: 14px;
+}
+
+.timer {
+    position: relative;
+    left: 570px;
+    padding: 20px;
+    border-radius: 50%;
+    border: white solid 2px;
+    text-align: right;
+    margin: 40px;
+}
+
+h6 {
+    text-align: right;
+    margin-right: 80px;
+}
+
+hr {
+    position: relative;
+    top: 100px
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    position: absolute;
+    bottom: 0px;
+    margin: auto;
+    right: 20px;
+}
