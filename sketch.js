@@ -9,7 +9,7 @@ let started = false;
 
 let timeLeft = 60;
 
-para = para.trim()
+// para = para.trim()
 
 
 let wordsPerPara = 20;
@@ -17,7 +17,7 @@ let wordsPerPara = 20;
 let start = 0;
 let end = wordsPerPara;
 let at = 0;
-let text_arr = para.split(" ")
+let text_arr = para.split(" ") //para[Math.floor(Math.random() * para.length)].split(" ")
 let arrr = text_arr.slice(start, end)
 let currentWord = arrr[at]
     // let date = new Date();
